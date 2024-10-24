@@ -1,0 +1,17 @@
+<html>
+<head></head>
+<body>
+
+<svg width="1000px" height="1000px">
+    <circle cx="150" cy="150" r="135" stroke-width="12" stroke="blue" fill="gray"/>
+    <g id="box" stroke="black">
+        <rect x="125" y="30" width="50" height="70" fill="black"/>
+        <rect x="125" y="100" width="50" height="70" fill="red"/>
+    </g>
+    <use xlink:href="#box" transform="rotate(270,150,150)" />
+    <use xlink:href="#box" transform="rotate(180,150,150)" />
+    <use xlink:href="#box" transform="rotate(90,150,150)" />
+</svg>
+
+</body>
+</html>
